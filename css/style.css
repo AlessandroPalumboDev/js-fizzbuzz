@@ -3,10 +3,11 @@
     margin: auto;
     box-sizing: border-box;
 }
+/* FINE RESET CSS */
 
 body{
     font-family: "jost", sans-serif;
-    background-color: rgb(23, 115, 143);
+    background-color: rgb(9, 89, 114);
 }
 
 .container{
@@ -24,6 +25,7 @@ h1{
 
 .list{
     display: flex;
+    justify-content: center;
     flex-wrap:wrap;
     list-style: none;
 }
@@ -31,7 +33,7 @@ h1{
 li{
     width: 100px;
     height: 100px;
-    background-color: rgb(38, 41, 216);
+    background-color: rgb(49, 107, 194);
     margin: 10px;
     display: flex;
     align-items: center;
@@ -40,4 +42,15 @@ li{
     font-weight: 500;
 }
 
+/* BACKGROUND COLOR DA MODIFICARE */
+.bg-fizz{
+    background-color: rgb(21, 209, 162);
+}
 
+.bg-buzz{
+    background-color: rgb(219, 207, 92);
+}
+
+.bg-fizzbuzz{
+    background-color: rgb(197, 47, 159);
+}

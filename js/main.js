@@ -15,6 +15,7 @@ for (let i = 1; i <= 100; i++) {
         console.log('FizzBuzz')
         lista.append(li);
         li.append('FizzBuzz');
+        li.classList.add("bg-fizzbuzz");
     }
 
     // Se è divisibile per 5 stampa BUZZ
@@ -22,6 +23,8 @@ for (let i = 1; i <= 100; i++) {
         console.log('Buzz');
         lista.append(li);
         li.append('Buzz');
+        li.classList.add("bg-buzz");
+
     }
 
     // Se è divisibile per 3 stampa FIZZ
@@ -29,6 +32,8 @@ for (let i = 1; i <= 100; i++) {
         console.log('Fizz');
         lista.append(li);
         li.append('Fizz');
+        li.classList.add("bg-fizz");
+
     }
 
     // Per tutti gli altri numeri invece stampa il numero
